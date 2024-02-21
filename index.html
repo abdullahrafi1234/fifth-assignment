@@ -2,69 +2,120 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fifth Assignment</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fifth Assignment</title>
 
-    <!-- daisyui linkup -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- daisyui linkup -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- css linkup -->
-    <link rel="stylesheet" href="styles/style.css">
+  <!-- css linkup -->
+  <link rel="stylesheet" href="styles/style.css">
 
 </head>
 
 <body class="mx-auto container">
-   <header>
+  <header>
     <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
-            </ul>
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
           </div>
-          <a class="btn btn-ghost text-4xl font-extrabold">R-Ticket</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Destination</a></li>
-            <li><a>Search</a></li>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Item 1</a></li>
+            <li>
+              <a>Parent</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+            <li><a>Item 3</a></li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <a class="btn font-bold text-xl bg-[#1DD1001A] text-[#1dd10066]">Bus <span><img src="images/bus-icon.png" alt=""></span></a>
+        <a class="btn btn-ghost text-4xl font-extrabold">R-Ticket</a>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Destination</a></li>
+          <li><a>Search</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn font-bold text-xl bg-[#1DD1001A] text-[#1dd10066]">Bus <span><img src="images/bus-icon.png"
+              alt=""></span></a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- banner section -->
+    <section>
+      <div class="hero h-[650px] mt-8 rounded-3xl" style="background-image: url(./images/banner.png);">
+        <div class=" "></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="">
+            <h1 class="mb-8 text-5xl font-bold">End-to-End Travel with <br> <span class="text-[#1DD100] mt-5">R
+                Paribahan</span></h1>
+            <p class="mb-5 max-w-md">Yes, you can run unit tests and view the results directly within the app. The
+              integrated testing features allow for a streamlined.</p>
+            <button class="btn bg-[#1DD100] border-none text-[#030712] font-bold text-xl m-8">Buy Tickets</button>
+          </div>
         </div>
       </div>
-   </header>
+    </section>
 
-   <main>
-        <section>
-            <div class="hero h-[650px] mt-8 rounded-3xl" style="background-image: url(./images/banner.png);">
-                <div class=" "></div>
-                <div class="hero-content text-center text-neutral-content">
-                  <div class="">
-                    <h1 class="mb-8 text-5xl font-bold">End-to-End Travel with <br> <span class="text-[#1DD100] mt-5">R Paribahan</span></h1>
-                    <p class="mb-5 max-w-md">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-                    <button class="btn bg-[#1DD100] border-none text-[#030712] font-bold text-xl m-8">Buy Tickets</button>
-                  </div>
-                </div>
-              </div>
-        </section>
-   </main>
+    <!-- cupon section -->
+
+    <section>
+      <div>
+        <h3 class="text-4xl font-bold mt-36 text-center mb-10">Best offers for you</h3>
+        <div class="flex justify-between">
+          <!-- card 1 -->
+          <div class=" flex justify-between w-[670px]  bg-[#FFBF0F] text-black rounded-3xl">
+            <div class="card-body">
+              <p class="text-4xl font-black">15% OFF <br>
+                <span class="text-xl font-semibold">on your next purchase</span> <br>
+                <span class="text-xl font-medium text-[#03071280]">use by January 2024</span>
+              </p>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold p-10 pt-20 pl-20 ">NEW15 <br>
+                <span class="text-xl font-medium text-[#03071280]"> Coupon Code</span>
+              </h3>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class=" flex justify-between w-[670px]  bg-[#F78C9C] text-black rounded-3xl ">
+            <div class="card-body">
+              <p class="text-4xl font-black">20% OFF <br>
+                <span class="text-xl font-semibold">on your next purchase</span> <br>
+                <span class="text-xl font-medium text-[#03071280]">use by January 2024</span>
+              </p>
+            </div>
+            <div>
+              <h3 class="text-3xl font-bold p-10 pt-20 pl-20 ">Couple 20 <br>
+                <span class="text-xl font-medium text-[#03071280]"> Coupon Code</span>
+              </h3>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+       <!-- btn  -->
+       <div class="text-center ">
+        <button class="btn bg-white text-green-400 border-green-400 m-8 text-xl font-bold">See All Offers</button>
+
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
