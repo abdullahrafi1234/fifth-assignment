@@ -15,7 +15,7 @@
 
 </head>
 
-<body class="mx-auto container">
+<body class="mx-auto container font-raleway">
   <header>
     <div class="navbar bg-base-100">
       <div class="navbar-start">
@@ -106,16 +106,254 @@
               </h3>
             </div>
           </div>
-         
+
         </div>
       </div>
-       <!-- btn  -->
-       <div class="text-center ">
+      <!-- btn  -->
+      <div class="text-center mb-20">
         <button class="btn bg-white text-green-400 border-green-400 m-8 text-xl font-bold">See All Offers</button>
 
       </div>
     </section>
+
+    <!-- P.H Paribahan -->
+
+    <section class="bg-[#F7F8F8] border-t-2 border-[#1DD100] rounded-[88px] p-28">
+      <!-- routing section -->
+      <div class="bg-white rounded-3xl p-8 space-y-4">
+        <h3 class="text-4xl font-bold text-center mb-6">R.H Paribahan</h3>
+        <p class="text-xl text-center mb-8 ">Yes, you can run unit tests and view the results directly within the app.
+          The
+          integrated
+          <br> testing features allow for a streamlined.
+        </p>
+        <!-- greenline paribahan -->
+        <div class="">
+
+          <div class="flex justify-between text-black  ">
+            <div class="  w-2/3">
+
+              <div class="flex justify-between text-black">
+                <div class="flex gap-3"> <img width="70px" height="50px" src="images/bus-logo.png" alt="">
+                  <h3 class="text-2xl font-bold">Greenline Paribahan <br>
+                    <span class="text-[18px] text-[#03071299]">Coach-009-WEB ! AC_Business</span>
+                  </h3>
+                </div>
+
+                <div class="flex items-center]">
+
+                  <button class=" font-inter btn bg-[#1DD10026]  text-[#1DD100] font-medium text-[18px]">
+                    <span >
+                      <p><img src="images/seat-green-filled.png" alt=""></p>
+                    </span>
+                    <span id="total-seat">40</span> Seats Left</button>
+                </div>
+              </div>
+
+              <div class=" bg-[#F7F8F8] p-8 m-8 rounded-3xl font-semibold">
+                <div class="flex justify-between border-dotted  border-b p-4 ">
+                  <h3 class="text-[#03071299]">Route</h3>
+                  <h3>Dhaka - Sylhet</h3>
+
+                </div>
+                <div class="flex justify-between border-dotted  border-b p-4">
+                  <p class="text-[#03071299]">Departure Time</p>
+                  <p>9.00 PM</p>
+                </div>
+
+                <div class="flex justify-between p-4">
+                  <p class="bg-[#0307120D] font-medium p-4 rounded-xl"> Boarding Point - Laxmipur</p>
+                  <p class="bg-[#0307120D] font-medium p-4 rounded-xl">Dropping Point - Bogura</p>
+                  <p class="bg-[#0307120D] font-medium p-4 rounded-xl">Est. Time - 11 Hour</p>
+                </div>
+              </div>
+            </div>
+            <!-- taka part -->
+            <div
+              class=" flex flex-col justify-center items-center border-dotted border-l-2 border-[#1DD100] pl-20 p-12 ">
+              <img src="images/fare.png" alt="">
+              <h1 class="text-3xl font-bold"> <span id="total-price">550</span> Taka</h1>
+              <p class=" text-2xl font-semibold text-[#03071299] ">Per Seat</p>
+            </div>
+
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- seat plan -->
+      <div class=" p-8 mt-8 rounded-2xl space-y-6 flex space-x-20 bg-white ">
+
+        <div class="w-1/2">
+          <h2 class="text-2xl font-semibold mt-5">Select Your Seat</h2>
+          <div class=" flex justify-between p-2 mt-4 border-t-2 border-b-2">
+            <button>
+              <h2 class="flex text-center">
+                <img src="images/seat-gray.png" alt="">
+                <p class="text-center font-bold">Available</p>
+              </h2>
+            </button>
+
+            <button>
+              <h2 class="flex text-center">
+                <img src="images/seat-green-filled.png" alt="">
+                <p class="text-center text-[#1DD100] font-bold">Selected</p>
+              </h2>
+            </button>
+
+          </div>
+          <!-- driver stearing  -->
+          <div class="flex justify-end">
+            <button class="btn bg-[#0307121A] m-4  flex justify-end">
+              <img src="images/Vector (1).png" alt=""></button>
+          </div>
+
+
+          <!-- seat plan grid -->
+          <div class=" font-inter grid grid-cols-5 space-x-5 space-y-5">
+            <!-- onclick="clickSeat()" id="A1"  -->
+
+            <button id="A" class="w-5 ml-5">A</button>
+            <button onclick="clickSeat()" id="A1" class=" add-btn btn w-12">A1</button>
+            <button id="A2" class="add-btn btn w-12">A2</button>
+            <button id="A3" class="add-btn btn w-12">A3</button>
+            <button id="A4" class="add-btn btn w-12">A4</button>
+
+            <button id="B" class="w-5">B</button>
+            <button id="B1" class="add-btn btn w-12">B1</button>
+            <button id="B2" class="add-btn btn w-12">B2</button>
+            <button id="B3" class="add-btn btn w-12">B3</button>
+            <button id="B4" class="add-btn btn w-12">B4</button>
+
+            <button class="w-5">C</button>
+            <button class="btn w-12">C1</button>
+            <button class="btn w-12">C2</button>
+            <button class="btn w-12">C3</button>
+            <button class="btn w-12">C4</button>
+
+            <button class="w-5">D</button>
+            <button class="btn w-12">D1</button>
+            <button class="btn w-12">D2</button>
+            <button class="btn w-12">D3</button>
+            <button class="btn w-12">D4</button>
+
+            <button class="w-5">E</button>
+            <button class="btn w-12">E1</button>
+            <button class="btn w-12">E2</button>
+            <button class="btn w-12">E3</button>
+            <button class="btn w-12">E4</button>
+
+            <button class="w-5">F</button>
+            <button class="btn w-12">F1</button>
+            <button class="btn w-12">F2</button>
+            <button class="btn w-12">F3</button>
+            <button class="btn w-12">F4</button>
+
+            <button class="w-5">G</button>
+            <button class="btn w-12">G1</button>
+            <button class="btn w-12">G2</button>
+            <button class="btn w-12">G3</button>
+            <button class="btn w-12">G4</button>
+
+            <button class="w-5">H</button>
+            <button class="btn w-12">G1</button>
+            <button class="btn w-12">G2</button>
+            <button class="btn w-12">G3</button>
+            <button class="btn w-12">G4</button>
+
+            <button class="w-5">I</button>
+            <button class="btn w-12">I1</button>
+            <button class="btn w-12">I2</button>
+            <button class="btn w-12">I3</button>
+            <button class="btn w-12">I4</button>
+
+            <button class="w-5">J</button>
+            <button class="btn w-12">J1</button>
+            <button class="btn w-12">J2</button>
+            <button class="btn w-12">J3</button>
+            <button class="btn w-12">J4</button>
+
+          </div>
+        </div>
+        <!-- input field -->
+
+        <div class=" font-inter border-l-2 border-dotted border-[#1DD100] pl-12 ">
+
+          <h2 class="font-raleway text-2xl font-semibold border-dotted  border-b-2 border-[#03071233] pb-8">Select Your
+            Seat</h2>
+
+          <!-- append korar jayga -->
+          <div class="bg-[#F7F8F8] p-8 rounded-2xl mt-8">
+            <div class=" font-inter flex justify-between w-[500px] border-dotted border-b-2 border-[#03071233] pt-4 pb-4">
+              <div class="font-medium">Seat 
+                <sup>
+                  <span id="current-seat" class="bg-[#1DD100] text-[12px] rounded-md p-1 text-white">0</span>
+                </sup>
+              </div>
+              <div class="font-medium">Class</div>
+              <div class="font-medium">Price</div>
+
+              
+            </div>
+
+            <!-- apend div -->
+
+            <div id="selected-container" class=" font-inter flex justify-between w-[500px] ">
+              
+              
+            </div>
+            <div id="selected-container2"></div>
+
+            <div class="flex justify-between pt-4 pb-4 font-medium">
+              <div>Total Price</div>
+              <div>BDT <span id="total-cost">0</span> </div>
+            </div>
+            <hr>
+
+            <div class="flex justify-between bg-[#FFFFFF] mt-6 rounded-2xl p-2">
+              <input class="p-3 rounded-lg" type="text" placeholder="Have any copupon?">
+              <button onclick="updateGrandTotal('apply-btn')" id="" class="btn bg-[#1DD100] text-white">Apply</button>
+            </div>
+
+
+            <div class="flex justify-between pt-4 pb-4 font-medium">
+              <div>Grand Total</div>
+              <div>BDT <span id="grand-total">0</span> </div>
+            </div>
+
+          </div>
+
+          <div class="mt-8 space-y-4 font-semibold">
+            <h3>Passenger Name*</h3>
+            <input class="w-full border-2 p-3 rounded-lg" type="text" placeholder="Enter your name">
+            
+            <h3>Phone Number*</h3>
+            <input class="w-full border-2 p-3 rounded-lg" type="number" name="" id="" placeholder="Enter your phone number">
+
+            <h3>Email ID</h3>
+            <input class="w-full border-2 p-3 rounded-lg" type="email" name="" id="" placeholder="Enter your email id">
+            <button class="text-white text-xl font-extrabold w-full btn bg-[#1DD100]">Next</button>
+
+            <div class="flex justify-evenly">
+              <h3 class="border-b-2 text-[#03071299]">Terms and Conditions</h3>
+              <h3 class="border-b-2 text-[#03071299]">Cancellation Policy</h3>
+            </div>
+          </div>
+        </div>
+        <!--      div end -->
+      </div>
+
+
+
+    </section>
   </main>
+
+
+
+  <script src="script/script.js"></script>
+  <script src="script/a2.js"></script>
 </body>
 
 </html>
