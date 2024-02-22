@@ -30,6 +30,13 @@ for(const btn of allBtn)
         document.getElementById('total-seat').innerText = totalSeat - 1
 
 
+        const firstCart = getConvertedValue('current-seat')
+        if(firstCart +1 >5 ){
+            alert('limit over')
+            return;
+        }
+
+
 
 
         const div = document.createElement('div')
